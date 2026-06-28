@@ -11,6 +11,8 @@ A modern, responsive Learning Management System built with React.js.
 
 ## 📸 Screenshots
 
+## 📸 Screenshots
+
 ### Home Page
 ![Home Page](Home.png)
 
