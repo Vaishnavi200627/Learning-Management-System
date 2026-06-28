@@ -39,3 +39,41 @@ cp .env.example .env
 
 # Start development server
 npm run dev
+🔧 Environment Variables
+Create a .env file with:
+
+text
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+📁 API Endpoints
+Method	Endpoint	Description
+POST	/api/auth/register	Register new user
+POST	/api/auth/login	Login user
+GET	/api/auth/profile	Get user profile
+GET	/api/courses	Get all courses
+GET	/api/courses/:id	Get single course
+POST	/api/courses	Create course
+PUT	/api/courses/:id	Update course
+DELETE	/api/courses/:id	Delete course
+POST	/api/courses/:id/lessons	Add lesson
+POST	/api/enroll	Enroll in course
+GET	/api/enroll/my-enrollments	Get enrollments
+🚀 Deployment
+This API is deployed on Render.
+
+📁 Project Structure
+text
+├── controllers/    # Business logic
+├── models/         # MongoDB schemas
+├── routes/         # API routes
+├── middleware/     # Auth middleware
+├── server.js       # Entry point
+└── .env.example    # Environment variables template
+👨‍💻 Author
+Vaishnavi Tawade
+
+GitHub: @Vaishnavi200627
+
+📄 License
+Internship Project
